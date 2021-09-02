@@ -42,7 +42,7 @@ print(f"Greatest increase in profits: \n{max_change}")
 print(f"\nGreatest decrease in profits:\n{min_change}")
 
 
-
+# create and write to .txt file
 with open('pybank_output.txt', 'w') as f:
     f.write(f"Financial Analysis\n-------------------------------")
     f.write(f"\nTotal Months: {total_months}")
